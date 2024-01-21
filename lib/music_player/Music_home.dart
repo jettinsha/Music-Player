@@ -71,7 +71,14 @@ class _Music_homeState extends State<Music_home> {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: AppBar(
-        leading: IconButton(onPressed: (){}, icon: Icon(FontAwesomeIcons.music,size: 30,),color: Colors.blueGrey,),
+        leading: IconButton(
+          onPressed: () {},
+          icon: Icon(
+            FontAwesomeIcons.music,
+            size: 30,
+          ),
+          color: Colors.blueGrey,
+        ),
         backgroundColor: Colors.black,
         title: Text(
           "JukeBox",

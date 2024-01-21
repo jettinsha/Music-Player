@@ -5,8 +5,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'Music_home.dart';
 
-
-
 class Music_search extends StatefulWidget {
   const Music_search({super.key});
 
@@ -84,7 +82,7 @@ class _Music_searchState extends State<Music_search> {
         crossAxisCount: 2,
         children: List.generate(
           genre.length,
-              (index) {
+          (index) {
             return Card(
               shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(4)),
@@ -112,7 +110,7 @@ class _Music_searchState extends State<Music_search> {
                       //alignment: Alignment.center,
                       child: Container(
                         decoration: BoxDecoration(
-                          //border: Border.all(),
+                            //border: Border.all(),
                             borderRadius: BorderRadius.circular(10)),
                         child: Image.asset(
                           image[index],
