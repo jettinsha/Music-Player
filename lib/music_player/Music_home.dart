@@ -95,7 +95,7 @@ class _Music_homeState extends State<Music_home> {
           Padding(
             padding: EdgeInsets.only(left: 10, top: 20),
             child: Text(
-              "Suggested Playlist",
+              "Suggested Playlist....",
               style: GoogleFonts.bebasNeue(
                   color: Colors.blueAccent,
                   fontSize: 30,
