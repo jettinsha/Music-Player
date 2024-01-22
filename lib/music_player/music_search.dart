@@ -137,7 +137,7 @@ class _Music_searchState extends State<Music_search> {
                 FontAwesomeIcons.house,
                 color: Colors.purpleAccent,
               ),
-              label: ""),
+              label: "hwllo"),
           BottomNavigationBarItem(
               backgroundColor: Colors.black,
               icon: Icon(
